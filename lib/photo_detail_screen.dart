@@ -27,7 +27,7 @@ class PhotoDetailScreen extends StatelessWidget {
             SizedBox(
               height: 10,
             ),
-            Text('ID: $id')
+            Center(child: Text('ID: $id'))
           ],
         ),
       ),
